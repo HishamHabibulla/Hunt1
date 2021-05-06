@@ -1,0 +1,953 @@
+@media (min-width: 320px) and (max-width: 575.98px){
+    nav button i{
+        color: #fff;
+    }
+
+    nav ul{
+        background: #000;
+        text-align: center;
+    }
+
+    nav ul li a:hover::after{
+        width: 0;
+    }
+
+    nav ul li {
+        margin-left: 0px;
+    }
+
+    #banner-part:after{
+        width: 0;
+    }
+
+    #banner-part .banner .overlay{
+        padding-top: 120px;
+        padding-bottom: 60px;
+    }
+
+    #banner-part .banner .overlay h2{
+        font-size: 25px;
+    }
+
+    #banner-part .banner .overlay h1{
+        font-size: 43px;
+    }
+
+    #banner-part .banner .overlay p{
+        width: auto;
+    }
+
+    #banner-part .slick-dots{
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        padding-left: 0;
+    }
+
+    #banner-part .slick-dots li{
+        display: inline-block;
+        margin: 0 10px;
+    }
+
+    #banner-part .slick-dots li button{
+        font-size: 0;
+        width: 20px;
+        height: 20px;
+        border: 1px solid #fff;
+        background: transparent;
+    }
+
+    #banner-part .slick-dots .slick-active button{
+        background: #fec600;
+        border-color: #fec600;
+    }
+
+    #about-part .item .border-round{
+        width: 300px;
+        height: 300px;
+    }
+
+    #about-part .item .border-round .img{
+        width: 270px;
+        height: 270px;
+    }
+
+    #about-part .shape{
+        display: none;
+    }
+
+    #about-part i{
+        display: none;
+    }
+
+    #about-part .item-left{
+        margin-top: 20px;
+    }
+
+    #about-part .item-bottom{
+        margin-top: 20px;
+    }
+
+    #shape{
+        display: none;
+    }
+
+    #shape-two{
+        display: none;
+    }
+
+    #portfolio-part .overlay {
+        
+        padding: 41px 0;
+    }
+
+    #service-part .service{
+        flex-direction: column;
+        background: tomato;
+    }
+
+    #service-part .service:nth-child(even){
+        flex-direction: column;
+    }
+
+    #service-part .service .details {
+        width: 100%;
+    }
+
+    #service-part .service .img {
+        width: 100%;
+        margin-bottom: 20px;
+        
+    }
+
+    #service-part .service .heading {
+        width: 100%;
+        justify-content: center;
+    }
+
+    #service-part .service:nth-child(even) .heading{
+        justify-content: center;
+    }
+
+    #service-part .service .heading h2{
+        margin-bottom: 20px;
+    }
+
+    #service-part .service .details p {
+        background: tomato;
+        
+    }
+
+    #service-part .line-shape{
+        display: none;
+    }
+
+    #pricing-part .item {
+        margin-bottom: 20px;
+    }
+
+    #counter-part .overlay .item{
+        margin-bottom: 20px;
+    }
+
+    #counter-part .overlay .item p{
+        font-size: 13px;
+    }
+
+    #counter-part .angle-shape {
+        transform: rotate(0deg);
+    }
+
+    #counter-part .overlay{
+        padding: 40px 0;
+    }
+
+    #team-part .item{
+        margin-bottom: 20px;
+    }
+
+    #footer-slider-part .footer-angle {
+        transform: rotate(0deg);
+    }
+
+    #footer-slider-part {
+        
+        clip-path: polygon(0 0%, 100% 0, 100% 100%, 0% 100%);
+    }
+
+    footer {
+        
+        clip-path: polygon(0 0%, 100% 0, 100% 100%, 0% 100%);
+    }
+
+    footer .border {
+        
+        border-bottom: 1px solid #4b4b4b;
+        transform: rotate(0deg);
+        
+    }
+
+    #testimonial-part .overlay .img .round {
+        width: 80px;
+        height: 80px;
+        
+    }
+
+    #testimonial-part .overlay .slick-center .round {
+        transform: scale(1.2);
+    }
+
+    #testimonial-part .overlay .img .round img {
+        position: absolute;
+        top: 7px;
+        left: -6px;
+        transform: translate(0%,2%);
+    }
+
+    #testimonial-part .alignment {
+        display: inline;
+        
+    }
+
+    #testimonial-part .details {
+        width: auto;
+        margin-top: 20px;
+        
+    }
+
+    #testimonial-part .shape{
+        display: none;
+    }
+
+    #testimonial-part .line{
+        display: none;
+    }
+
+
+}
+
+@media (min-width: 576px) and (max-width: 767.98px){
+    nav button i{
+        color: #fff;
+    }
+
+    nav ul{
+        background: #000;
+        text-align: center;
+    }
+
+    nav ul li a:hover::after{
+        width: 0;
+    }
+
+    nav ul li {
+        margin-left: 0px;
+    }
+
+    #banner-part:after{
+        width: 0;
+    }
+
+    #banner-part .banner .overlay{
+        padding-top: 120px;
+        padding-bottom: 60px;
+    }
+
+    #banner-part .banner .overlay h2{
+        font-size: 25px;
+    }
+
+    #banner-part .banner .overlay h1{
+        font-size: 43px;
+    }
+
+    #banner-part .banner .overlay p{
+        width: auto;
+    }
+
+    #banner-part .slick-dots{
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        padding-left: 0;
+    }
+
+    #banner-part .slick-dots li{
+        display: inline-block;
+        margin: 0 10px;
+    }
+
+    #banner-part .slick-dots li button{
+        font-size: 0;
+        width: 20px;
+        height: 20px;
+        border: 1px solid #fff;
+        background: transparent;
+    }
+
+    #banner-part .slick-dots .slick-active button{
+        background: #fec600;
+        border-color: #fec600;
+    }
+
+    
+
+    #about-part .shape{
+        display: none;
+    }
+
+    #about-part i{
+        display: none;
+    }
+
+    #about-part .item-left{
+        margin-top: 20px;
+    }
+
+    #about-part .item-bottom{
+        margin-top: 20px;
+    }
+
+    #shape{
+        display: none;
+    }
+
+    #shape-two{
+        display: none;
+    }
+
+    #portfolio-part .overlay {
+        
+        padding: 41px 0;
+    }
+
+    #service-part{
+        margin-top: 40px;
+    }
+
+    #service-part .service{
+        flex-direction: column;
+        background: tomato;
+    }
+
+    #service-part .service:nth-child(even){
+        flex-direction: column;
+    }
+
+    #service-part .service .details {
+        width: 100%;
+    }
+
+    #service-part .service .img {
+        width: 100%;
+        margin-bottom: 20px;
+        
+    }
+
+    #service-part .service .heading {
+        width: 100%;
+        justify-content: center;
+    }
+
+    #service-part .service:nth-child(even) .heading{
+        justify-content: center;
+    }
+
+    #service-part .service .heading h2{
+        margin-bottom: 20px;
+    }
+
+    #service-part .service .details p {
+        background: tomato;
+        
+    }
+
+    #service-part .line-shape{
+        display: none;
+    }
+
+    #pricing-part .item {
+        margin-bottom: 20px;
+    }
+
+    #counter-part {
+        
+        clip-path: polygon(0 0%, 100% 0, 100% 100%, 0% 100%);
+    }
+
+    #counter-part .overlay .item{
+        margin-bottom: 20px;
+    }
+
+    #counter-part .overlay .item p{
+        font-size: 13px;
+    }
+
+    #counter-part .angle-shape {
+        transform: rotate(0deg);
+    }
+
+    #counter-part .overlay{
+        padding: 40px 0;
+    }
+
+    #team-part .item .text .icon i {
+        
+        margin: 3px 10px;
+        
+    }
+
+    #team-part .item{
+        margin-bottom: 20px;
+    }
+
+    #team-part .item h5{
+        font-size: 16px;
+    }
+
+    #footer-slider-part .footer-angle {
+        transform: rotate(0deg);
+    }
+
+    #footer-slider-part {
+        
+        clip-path: polygon(0 0%, 100% 0, 100% 100%, 0% 100%);
+    }
+
+    footer {
+        
+        clip-path: polygon(0 0%, 100% 0, 100% 100%, 0% 100%);
+    }
+
+    footer .border {
+        
+        border-bottom: 1px solid #4b4b4b;
+        transform: rotate(0deg);
+        
+    }
+
+    footer .info-one .text p {
+        margin-left: 154px;
+        
+    }
+
+    #testimonial-part .overlay .img .round {
+        width: 80px;
+        height: 80px;
+        
+    }
+
+    #testimonial-part .overlay .slick-center .round {
+        transform: scale(1.2);
+    }
+
+    #testimonial-part .overlay .img .round img {
+        position: absolute;
+        top: 7px;
+        left: -6px;
+        transform: translate(0%,2%);
+    }
+
+    #testimonial-part .alignment {
+        display: inline;
+        
+    }
+
+    #testimonial-part .details {
+        width: auto;
+        margin-top: 20px;
+        
+    }
+
+    #testimonial-part .shape{
+        display: none;
+    }
+
+    #testimonial-part .line{
+        display: none;
+    }
+
+
+}
+
+@media (min-width: 768px) and (max-width: 991.98px){
+    nav button i{
+        color: #fff;
+    }
+
+    nav ul{
+        
+        text-align: center;
+    }
+
+    nav ul li a:hover::after{
+        width: 0;
+    }
+
+    nav ul li {
+        margin-left: 0px;
+    }
+
+    #banner-part:after{
+        width: 0;
+    }
+
+    #banner-part .banner .overlay{
+        padding-top: 120px;
+        padding-bottom: 60px;
+    }
+
+    #banner-part .banner .overlay h2{
+        font-size: 25px;
+    }
+
+    #banner-part .banner .overlay h1{
+        font-size: 43px;
+    }
+
+    
+
+    #banner-part .slick-dots{
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        padding-left: 0;
+    }
+
+    #banner-part .slick-dots li{
+        display: inline-block;
+        margin: 0 10px;
+    }
+
+    #banner-part .slick-dots li button{
+        font-size: 0;
+        width: 20px;
+        height: 20px;
+        border: 1px solid #fff;
+        background: transparent;
+    }
+
+    #banner-part .slick-dots .slick-active button{
+        background: #fec600;
+        border-color: #fec600;
+    }
+
+    
+
+    #about-part .shape{
+        display: none;
+    }
+
+    #about-part i{
+        display: none;
+    }
+
+    #about-part .item-left{
+        margin-top: 20px;
+    }
+
+    #about-part .item-bottom{
+        margin-top: 20px;
+    }
+
+    #shape{
+        display: none;
+    }
+
+    #shape-two{
+        display: none;
+    }
+
+    #portfolio-part .overlay {
+        
+        padding: 41px 0;
+    }
+
+    /* #service-part{
+        margin-top: 40px;
+    }
+
+    #service-part .service{
+        flex-direction: column;
+        background: tomato;
+    }
+
+    #service-part .service:nth-child(even){
+        flex-direction: column;
+    }
+
+    #service-part .service .details {
+        width: 100%;
+    }
+
+    #service-part .service .img {
+        width: 100%;
+        margin-bottom: 20px;
+        
+    }
+
+    #service-part .service .heading {
+        width: 100%;
+        justify-content: center;
+    }
+
+    #service-part .service:nth-child(even) .heading{
+        justify-content: center;
+    }
+
+    #service-part .service .heading h2{
+        margin-bottom: 20px;
+    }
+
+    #service-part .service .details p {
+        background: tomato;
+        
+    }
+
+    #service-part .line-shape{
+        display: none;
+    } */
+
+    #pricing-part .item {
+        margin-bottom: 20px;
+    }
+
+    #counter-part {
+        
+        clip-path: polygon(0 0%, 100% 0, 100% 100%, 0% 100%);
+    }
+
+    #counter-part .overlay .item{
+        margin-bottom: 20px;
+    }
+
+    #counter-part .overlay .item p{
+        font-size: 13px;
+    }
+
+    #counter-part .angle-shape {
+        transform: rotate(0deg);
+    }
+
+    #counter-part .overlay{
+        padding: 40px 0;
+    }
+
+    #team-part .item .text .icon i {
+        
+        margin: 3px 10px;
+        
+    }
+
+    #team-part .item{
+        margin-bottom: 20px;
+    }
+
+    #team-part .item h5{
+        font-size: 16px;
+    }
+
+    #footer-slider-part .footer-angle {
+        transform: rotate(0deg);
+    }
+
+    #footer-slider-part {
+        
+        clip-path: polygon(0 0%, 100% 0, 100% 100%, 0% 100%);
+    }
+
+    footer {
+        
+        clip-path: polygon(0 0%, 100% 0, 100% 100%, 0% 100%);
+    }
+
+    footer .border {
+        
+        border-bottom: 1px solid #4b4b4b;
+        transform: rotate(0deg);
+        
+    }
+
+    footer .info-one .text p {
+        margin-left: 154px;
+        
+    }
+
+    #testimonial-part .overlay .img .round {
+        width: 80px;
+        height: 80px;
+        
+    }
+
+    #testimonial-part .overlay .slick-center .round {
+        transform: scale(1.2);
+    }
+
+    #testimonial-part .overlay .img .round img {
+        position: absolute;
+        top: 7px;
+        left: -6px;
+        transform: translate(0%,2%);
+    }
+
+    #testimonial-part .alignment {
+        display: inline;
+        
+    }
+
+    #testimonial-part .details {
+        width: auto;
+        margin-top: 20px;
+        
+    }
+
+    #testimonial-part .shape{
+        display: none;
+    }
+
+    #testimonial-part .line{
+        display: none;
+    }
+
+
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px){
+    
+
+    #banner-part:after{
+        width: 0;
+    }
+
+    #banner-part .banner .overlay{
+        padding-top: 120px;
+        padding-bottom: 60px;
+    }
+
+    #banner-part .banner .overlay h2{
+        font-size: 25px;
+    }
+
+    #banner-part .banner .overlay h1{
+        font-size: 43px;
+    }
+
+    #team-part .img img{
+        position: absolute;
+        top: 0;
+        left: 100px;
+        transform: translateX(-50%);
+    }
+
+    
+
+    #banner-part .slick-dots{
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        padding-left: 0;
+    }
+
+    #banner-part .slick-dots li{
+        display: inline-block;
+        margin: 0 10px;
+    }
+
+    #banner-part .slick-dots li button{
+        font-size: 0;
+        width: 20px;
+        height: 20px;
+        border: 1px solid #fff;
+        background: transparent;
+    }
+
+    #banner-part .slick-dots .slick-active button{
+        background: #fec600;
+        border-color: #fec600;
+    }
+
+    
+
+    #about-part .shape{
+        display: none;
+    }
+
+    #about-part i{
+        display: none;
+    }
+
+    #about-part .item-left{
+        margin-top: 20px;
+    }
+
+    #about-part .item-bottom{
+        margin-top: 20px;
+    }
+
+    #shape{
+        display: none;
+    }
+
+    #shape-two{
+        display: none;
+    }
+
+    #portfolio-part .overlay {
+        
+        padding: 41px 0;
+    }
+
+    /* #service-part{
+        margin-top: 40px;
+    }
+
+    #service-part .service{
+        flex-direction: column;
+        background: tomato;
+    }
+
+    #service-part .service:nth-child(even){
+        flex-direction: column;
+    }
+
+    #service-part .service .details {
+        width: 100%;
+    }
+
+    #service-part .service .img {
+        width: 100%;
+        margin-bottom: 20px;
+        
+    }
+
+    #service-part .service .heading {
+        width: 100%;
+        justify-content: center;
+    }
+
+    #service-part .service:nth-child(even) .heading{
+        justify-content: center;
+    }
+
+    #service-part .service .heading h2{
+        margin-bottom: 20px;
+    }
+
+    #service-part .service .details p {
+        background: tomato;
+        
+    }
+
+    #service-part .line-shape{
+        display: none;
+    } */
+
+    #pricing-part .item {
+        margin-bottom: 20px;
+    }
+
+    #counter-part {
+        
+        clip-path: polygon(0 0%, 100% 0, 100% 100%, 0% 100%);
+    }
+
+    #counter-part .overlay .item{
+        margin-bottom: 20px;
+    }
+
+    #counter-part .overlay .item p{
+        font-size: 13px;
+    }
+
+    #counter-part .angle-shape {
+        transform: rotate(0deg);
+    }
+
+    #counter-part .overlay{
+        padding: 40px 0;
+    }
+
+    #team-part .item .text .icon i {
+        
+        margin: 3px 4px;
+        
+    }
+
+    #team-part .item .text h3{
+        font-size: 22px;
+    }
+
+    #team-part .item{
+        margin-bottom: 20px;
+    }
+
+    #team-part .item h5{
+        font-size: 16px;
+    }
+
+    #footer-slider-part .footer-angle {
+        transform: rotate(0deg);
+    }
+
+    #footer-slider-part {
+        
+        clip-path: polygon(0 0%, 100% 0, 100% 100%, 0% 100%);
+    }
+
+    footer {
+        
+        clip-path: polygon(0 0%, 100% 0, 100% 100%, 0% 100%);
+    }
+
+    footer .border {
+        
+        border-bottom: 1px solid #4b4b4b;
+        transform: rotate(0deg);
+        
+    }
+
+    footer .info-one .text p {
+        margin-left: 154px;
+        
+    }
+
+    #testimonial-part .overlay .img .round {
+        width: 80px;
+        height: 80px;
+        
+    }
+
+    #testimonial-part .overlay .slick-center .round {
+        transform: scale(1.2);
+    }
+
+    #testimonial-part .overlay .img .round img {
+        position: absolute;
+        top: 7px;
+        left: -6px;
+        transform: translate(0%,2%);
+    }
+
+    #testimonial-part .alignment {
+        display: inline;
+        
+    }
+
+    #testimonial-part .details {
+        width: auto;
+        margin-top: 20px;
+        
+    }
+
+    
+
+    #testimonial-part .line{
+        display: none;
+    }
+
+
+}
